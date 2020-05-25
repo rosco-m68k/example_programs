@@ -8,7 +8,7 @@ SRC=../rosco_m68k/code/software
 LIBS=$(SRC)/libs
 PROGS=$(SRC)/memcheck $(SRC)/68010-test $(SRC)/adventure $(SRC)/ehbasic
 TARGET=examples
-BASENAME=rosco_m68k_examples
+BASENAME=rosco_m68k_examples-1.2
 TARBALL=$(TARGET)/$(BASENAME).tar.gz
 ZIP=$(TARGET)/$(BASENAME).zip
 
