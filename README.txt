@@ -18,6 +18,21 @@ is available at:
 The Examples
 ============
 
+Firstly, you need to make sure you use the correct examples for
+your firmware revision. There are three firmware directories:
+
+* **firmware-1.01** contains programs for r1 boards with FW 1.01
+* **firmware-1.1** contains programs for r1 boards with FW 1.1
+* **firmware-1.2** contains programs for r1.2 boards with FW 1.2
+
+Inside each of these directories, you'll find the examples, along
+with pre-built ROM images for each release (including alphas and
+betas where applicable) and pre-build library images.
+
+All the examples are ready to upload to your board via Kermit,
+and are contained in the relevant `examples` directory for your
+firmware revision.
+
 ehbasic.bin
 -----------
 
