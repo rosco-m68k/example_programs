@@ -24,6 +24,7 @@ your firmware revision. There are three firmware directories:
 * **firmware-1.01** contains programs for r1 boards with FW 1.01
 * **firmware-1.1** contains programs for r1 boards with FW 1.1
 * **firmware-1.2** contains programs for r1.2 boards with FW 1.2
+* **firmware-1.3** contains programs for all boards with FW 1.3
 
 Inside each of these directories, you'll find the examples, along
 with pre-built ROM images for each release (including alphas and
@@ -41,6 +42,10 @@ ehbasic.bin
   be presented with a familar BASIC prompt, where you can type in
   your programs and run them, just like any old-school BASIC 
   interpreter (It's case-sensitive too, commands must be uppercase!)
+  
+  Note there are two versions - the standard version is designed to
+  be used with the onboard UART, while the `ehbasic-68681.bin` is 
+  designed for use with the optional 68681 DUART board.
 
   This is the README from the original project:
 
@@ -128,3 +133,10 @@ memcheck.bin
   red LED blink in groups of three) if your CPU is not a 68010.
   If it is a 68010, the green LED will flash quickly instead.
 
+2dmaze.bin & life.bin
+---------------------
+
+  A 2D maze game and Conway's Game Of Life demo, showing use of libm 
+  in the standard libraries. 
+  
+  Many thanks to Matt Pierce for contributing these! 
