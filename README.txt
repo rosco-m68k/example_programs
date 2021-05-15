@@ -19,7 +19,7 @@ The Examples
 ============
 
 Firstly, you need to make sure you use the correct examples for
-your firmware revision. There are three firmware directories:
+your firmware revision. There are four firmware directories:
 
 * **firmware-1.01** contains programs for r1 boards with FW 1.01
 * **firmware-1.1** contains programs for r1 boards with FW 1.1
